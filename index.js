@@ -14,14 +14,12 @@ export default function(kibana) {
       apps: [
         {
           id: 'app_a',
-          name: 'app_a',
           title: 'app_a',
           description: 'An awesome Kibana plugin',
           main: 'plugins/aplugin/apps/app_a/app',
         },
         {
           id: 'app_b',
-          name: 'app_b',
           title: 'app_b',
           description: 'An awesome Kibana plugin',
           main: 'plugins/aplugin/apps/app_b/app',
